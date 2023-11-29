@@ -1,27 +1,27 @@
 import { spawn } from "child_process";
 
-interface QuickScanResult {
+export interface QuickScanResult {
   otherAddresses: string[];
   isUp: boolean;
   latency: number;
 }
 
-interface PortScanResult {
+export interface PortScanResult {
   openPorts: { port: number; state: string; service: string }[];
 }
 
-interface HostUpResult {
+export interface HostUpResult {
   isUp: boolean;
   latency: number;
 }
 
-interface OsDetectionResult {
+export interface OsDetectionResult {
   deviceType: string;
   osCPE: string;
   guesses: string[];
 }
 
-interface ServiceScanResult {
+export interface ServiceScanResult {
   services: { port: number; state: string; service: string; version: string }[];
 }
 
