@@ -7,7 +7,7 @@ A simple typescript nmap wrapper to perform basic nmap operations
 import NmapScanner from "nmap";
 
 // Example usage:
-const scanner = new NmapScanner("exampdededle.com");
+const scanner = new NmapScanner("example.com");
 
 scanner
   .quickScan()
