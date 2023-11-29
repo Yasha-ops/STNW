@@ -4,7 +4,7 @@ import NmapScanner, {
   HostUpResult,
   OsDetectionResult,
   ServiceScanResult,
-} from "./src/nmap";
+} from "./nmap";
 
 export default NmapScanner;
 export {
