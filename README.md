@@ -1,8 +1,15 @@
 # STNW - (Simple Typescript Nmap Wrapper)
+
 ## Description
+
 A simple typescript nmap wrapper to perform basic nmap operations
 
+## Before everything...
+
+Some commands require root priviliges. So to bypass this follow this tutorial (here)[https://www.maketecheasier.com/run-nmap-without-root-or-sudo/]
+
 ## Example usage
+
 ```typescript
 import NmapScanner from "nmap";
 
