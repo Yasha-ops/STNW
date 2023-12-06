@@ -1,7 +1,4 @@
 # STNW - (Simple Typescript Nmap Wrapper)
-
-## Description
-
 A simple typescript nmap wrapper to perform basic nmap operations
 
 ## Before everything...
